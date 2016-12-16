@@ -1,0 +1,386 @@
+﻿<div id="blog-breadcrumb" class="text-center page-breadcrumb">
+    <div class="container">
+        <h1>সকল<span>সংবাদ</span></h1>
+        <p class="breadcrumb-text"></p>
+    </div>
+</div><!--/.page-breadcrumb-->
+
+
+
+<div id="main-blog">
+
+    <div class="container">
+        <div class="breadcrumbs">
+            <span itemtype="##" itemscope=""><a href="<?php echo base_url() ?>PagesController" itemprop="url"><span itemprop="title">মুলপাতা</span></a></span>
+
+            <span class="delim"><i class="icon fa fa-caret-right"></i></span>
+            <span itemtype="##" itemscope=""><a href="PagesController/all_news">সংবাদ</a></span>
+            <span class="delim"><i class="icon fa fa-caret-right"></i></span>
+            <span itemtype="##" itemscope="">সাংস্কৃতিক</span>
+
+        </div>
+
+        <div class="row">
+            <div id="sidebar" class="col-md-4">
+                <div class="widget-area">
+                    <div class="widget widget_search">
+                        <form role="form" id="search" method="get" name="contact-form" action="#">
+                            <div class="form-group">
+                                <input type="text" class="form-control" autocomplete="off" placeholder="সংবাদ খুজুন">
+                                <button type="submit" class="btn"><i class="fa fa-search"></i></button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="widget widget_categories">
+                        <h3 class="widget_title">সংবাদ</h3>
+                        <ul>
+                            <li><a href="news-detail.html">সকল সংবাদ</a></li>
+                            <li><a href="#">সংবাদ বিজ্ঞপ্তি</a></li>
+                            <li><a href="#">ক্যাম্পাস ও শিক্ষা কার্যক্রম</a></li>
+                            <li><a href="#">আন্দোলন কর্মসূচী</a></li>
+                            <li><a href="#">প্রশিক্ষন কার্যক্রম</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="widget">
+                        <h3 class="widget_title">সর্বশেষ সংবাদ</h3>
+                        <div class="latest-posts">
+                            <div class="media">
+                                <div class="pull-left">
+                                    <a href="news-detail.html"><img class="img-responsive" src="images/blog/girl.jpg" alt="" /></a>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="entry-title"><a href="news-detail.html">প্রধানমন্ত্রী অসত্য বক্তব্য দিয়ে জাতিকে বিভ্রান্ত করছেন</a></h4>
+                                    <div class="entry-meta small">
+                                        <p><i class="fa fa-calendar"></i>মঙ্গলবার, ২১ জুন ২০১৬</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <div class="pull-left">
+                                    <a href="#"><img class="img-responsive" src="images/blog/post2.jpg" alt="" /></a>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="entry-title"><a href="news-detail.html">অপপ্রচার বন্ধ করে নেতাদের সন্ধান ও মুক্তি না দিলে কঠোর কর্মসূচি ঘোষনা করা হবে</a></h4>
+                                    <div class="entry-meta small">
+                                        <p><i class="fa fa-calendar"></i>মঙ্গলবার, ২১ জুন ২০১৬</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <div class="pull-left">
+                                    <a href="#"><img class="img-responsive" src="images/blog/post3.jpg" alt="" /></a>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="entry-title"><a href="news-detail.html">গুম গণগ্রেপ্তার অপপ্রচার করে সরকার গুপ্তহত্যা ধামাচাপা দিতে চাইছে</a></h4>
+                                    <div class="entry-meta small">
+                                        <p><i class="fa fa-calendar"></i>মঙ্গলবার, ২১ জুন ২০১৬</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <div class="pull-left">
+                                    <a href="#"><img class="img-responsive" src="images/blog/post4.jpg" alt="" /></a>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="entry-title"><a href="news-detail.html">আগামী ২১ জুন মঙ্গলবার দেশব্যাপী বিক্ষোভ কর্মসূচি ঘোষনা</a></h4>
+                                    <div class="entry-meta small">
+                                        <p><i class="fa fa-calendar"></i>মঙ্গলবার, ২১ জুন ২০১৬</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <div class="pull-left">
+                                    <a href="#"><img class="img-responsive" src="images/blog/post5.jpg" alt="" /></a>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="entry-title"><a href="news-detail.html">প্রধানমন্ত্রী অসত্য বক্তব্য দিয়ে জাতিকে বিভ্রান্ত করছেন</a></h4>
+                                    <div class="entry-meta small">
+                                        <p><i class="fa fa-calendar"></i>মঙ্গলবার, ২১ জুন ২০১৬</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--
+
+                                            <div class="widget">
+                                                <h3 class="widget_title">Recent Comments</h3>
+                                                <div class="recent-comment">
+                                                    <div class="media">
+                                                        <div class="pull-left">
+                                                            <a href="#"><img class="img-responsive" src="images/team/1.jpg" alt="" /></a>
+                                                        </div>
+                                                        <div class="media-body">
+                                                            <h4 class="entry-title"><a href="#">Artisan wolf fap lomo, laborum</a></h4>
+                                                            <div class="entry-meta small">
+                                                                <p><i class="fa fa-calendar"></i>14 Feb 2015</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="media">
+                                                        <div class="pull-left">
+                                                            <a href="#"><img class="img-responsive" src="images/team/3.jpg" alt="" /></a>
+                                                        </div>
+                                                        <div class="media-body">
+                                                            <h4 class="entry-title"><a href="#">Artisan wolf fap lomo, laborum</a></h4>
+                                                            <div class="entry-meta small">
+                                                                <p><i class="fa fa-calendar"></i>14 Feb 2015</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="media">
+                                                        <div class="pull-left">
+                                                            <a href="#"><img class="img-responsive" src="images/team/5.jpg" alt="" /></a>
+                                                        </div>
+                                                        <div class="media-body">
+                                                            <h4 class="entry-title"><a href="#">Exercitation photo booth stumptown</a></h4>
+                                                            <div class="entry-meta small">
+                                                                <p><i class="fa fa-calendar"></i>12 Feb 2015</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="media">
+                                                        <div class="pull-left">
+                                                            <a href="#"><img class="img-responsive" src="images/team/1.jpg" alt="" /></a>
+                                                        </div>
+                                                        <div class="media-body">
+                                                            <h4 class="entry-title"><a href="#">Exercitation photo booth stumptown</a></h4>
+                                                            <div class="entry-meta small">
+                                                                <p><i class="fa fa-calendar"></i>12 Feb 2015</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="media">
+                                                        <div class="pull-left">
+                                                            <a href="#"><img class="img-responsive" src="images/team/7.jpg" alt="" /></a>
+                                                        </div>
+                                                        <div class="media-body">
+                                                            <h4 class="entry-title"><a href="#">Exercitation photo booth stumptown</a></h4>
+                                                            <div class="entry-meta small">
+                                                                <p><i class="fa fa-calendar"></i>12 Feb 2015</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="widget tag-cloud">
+                                                <h3 class="widget_title">Tag Clouds</h3>
+                                                <ul>
+                                                    <li><a href="#">Business</a></li>
+                                                    <li><a href="#">Creative</a></li>
+                                                    <li><a href="#">Marketing</a></li>
+
+                                                    <li><a href="#">Bloging</a></li>
+                                                    <li><a href="#">Science</a></li>
+                                                    <li><a href="#">Multipurpose</a></li>
+                                                    <li><a href="#">Graphics</a></li>
+                                                    <li><a href="#">Art</a></li>
+                                                    <li><a href="#">Graphics</a></li>
+                                                </ul>
+                                            </div>
+
+
+                    -->
+                </div>
+            </div> <!--/Sidebar-->
+
+
+            <div id="content" class="site-content col-md-4">
+                <?php
+                foreach ($latest_news_details as $row )
+                {
+                    ?>
+                <div class="post">
+                    <div class="entry-header">
+                        <div class="entry-thumbnail">
+                            <img class="img-responsive" src="images/jaamat/1017_1.jpg" alt="" />
+                        </div>
+                    </div>
+
+                    <div class="post-content">
+                        <h2 class="entry-title">
+                            <a href="news-detail.html"><?php echo $row->admin_post_title?></a>
+                        </h2>
+                        <div class="entry-meta">
+                            <ul>
+                                <li class="publish-date"><i class="fa fa-calendar"></i><a href="#">মঙ্গলবার, ২১ জুন ২০১৬</a></li>
+                                <li class="tag"><i class="fa fa-tags"></i><a href="#">জাতীয়</a></li>
+                            </ul>
+                        </div>
+                        <div class="entry-summary">
+                            <p><?php echo $y=substr($row->admin_post_description,0,300) . '...';?></p>
+
+                            <a href="news-detail.html" class="btn btn-info">বিস্তারিত</a>
+                        </div>
+                    </div>
+                </div><!--/post-->
+                    <?php
+                    }
+                    ?>
+
+
+                <div class="post">
+                    <div class="entry-header">
+                        <div class="entry-thumbnail">
+                            <img class="img-responsive" src="images/jaamat/1018_1.jpg" alt="" />
+                        </div>
+                    </div>
+                    <div class="post-content">
+                        <h2 class="entry-title">
+                            <a href="news-detail.html">অপপ্রচার বন্ধ করে নেতাদের সন্ধান ও মুক্তি না দিলে কঠোর কর্মসূচি ঘোষনা করা হবে</a>
+                        </h2>
+                        <div class="entry-meta">
+                            <ul>
+
+                                <li class="publish-date"><i class="fa fa-calendar"></i><a href="#">মঙ্গলবার, ২১ জুন ২০১৬</a></li>
+                                <li class="tag"><i class="fa fa-tags"></i><a href="#">জাতীয়</a></li>
+                            </ul>
+                        </div>
+                        <div class="entry-summary">
+                            <p>ঢাকায় আটক ঝিনাইদহের ৪ শিবির নেতার সন্ধান, গুপ্তহত্যার সাথে ছাত্রশিবিরকে জড়িয়ে পরিকল্পিত মিথ্যাচার বন্ধ এবং গণগ্রেপ্তারে আটক নেতাকর্মীদের মুক্তির দাবীতে পূর্ব ঘোষিত বিক্ষোভ কর্মসূচি সফল করতে রাজধানীসহ সারাদেশে বিক্ষোভ মিছিল ও সমাবেশ করেছে বাংলাদেশ ইসলামী ছাত্রশিবির।</p>
+
+                            <a href="news-detail.html" class="btn btn-info">বিস্তারিত</a>
+                        </div>
+                    </div>
+                </div><!--/post-->
+
+
+
+                <div class="post">
+                    <div class="entry-header">
+                        <div class="entry-thumbnail">
+                            <img class="img-responsive" src="images/jaamat/1018_1.jpg" alt="" />
+                        </div>
+                    </div>
+                    <div class="post-content">
+                        <h2 class="entry-title">
+                            <a href="news-detail.html">অপপ্রচার বন্ধ করে নেতাদের সন্ধান ও মুক্তি না দিলে কঠোর কর্মসূচি ঘোষনা করা হবে</a>
+                        </h2>
+                        <div class="entry-meta">
+                            <ul>
+
+                                <li class="publish-date"><i class="fa fa-calendar"></i><a href="#">মঙ্গলবার, ২১ জুন ২০১৬</a></li>
+                                <li class="tag"><i class="fa fa-tags"></i><a href="#">জাতীয়</a></li>
+                            </ul>
+                        </div>
+                        <div class="entry-summary">
+                            <p>ঢাকায় আটক ঝিনাইদহের ৪ শিবির নেতার সন্ধান, গুপ্তহত্যার সাথে ছাত্রশিবিরকে জড়িয়ে পরিকল্পিত মিথ্যাচার বন্ধ এবং গণগ্রেপ্তারে আটক নেতাকর্মীদের মুক্তির দাবীতে পূর্ব ঘোষিত বিক্ষোভ কর্মসূচি সফল করতে রাজধানীসহ সারাদেশে বিক্ষোভ মিছিল ও সমাবেশ করেছে বাংলাদেশ ইসলামী ছাত্রশিবির।</p>
+
+                            <a href="news-detail.html" class="btn btn-info">বিস্তারিত</a>
+                        </div>
+                    </div>
+                </div><!--/post-->
+
+
+
+
+
+            </div>
+
+
+            <div id="content" class="site-content col-md-4">
+                <div class="post">
+                    <div class="entry-header">
+                        <div class="entry-thumbnail">
+                            <img class="img-responsive" src="images/jaamat/1016_1.jpg" alt="" />
+                        </div>
+                    </div>
+                    <div class="post-content">
+                        <h2 class="entry-title">
+                            <a href="news-detail.html">গুম গণগ্রেপ্তার অপপ্রচার করে সরকার গুপ্তহত্যা ধামাচাপা দিতে চাইছে</a>
+                        </h2>
+                        <div class="entry-meta">
+                            <ul>
+
+                                <li class="publish-date"><i class="fa fa-calendar"></i><a href="#">মঙ্গলবার, ২১ জুন ২০১৬</a></li>
+                                <li class="tag"><i class="fa fa-tags"></i><a href="#">জাতীয়</a></li>
+                            </ul>
+                        </div>
+                        <div class="entry-summary">
+                            <p>বাংলাদেশ ইসলামী ছাত্রশিবিরের সেক্রেটারী জেনারেল ইয়াছিন আরাফাত বলেছেন, গুপ্তহত্যাসহ সকল রাষ্ট্রীয় অরাজকতায় সরকারের সম্পৃক্ততা জনগণের সামনে প্রকাশ হয়ে গেছে। তাই গুম, গণগ্রেপ্তার, অপপ্রচার করে সরকার গুপ্তহত্যা ধামাচাপা দিতে চাইছে।</p>
+                            <a href="news-detail.html" class="btn btn-info">বিস্তারিত</a>
+                        </div>
+                    </div>
+                </div><!--/post-->
+
+
+
+                <div class="post">
+                    <div class="entry-header">
+                        <div class="entry-thumbnail">
+                            <img class="img-responsive" src="images/jaamat/1016_1.jpg" alt="" />
+                        </div>
+                    </div>
+                    <div class="post-content">
+                        <h2 class="entry-title">
+                            <a href="news-detail.html">গুম গণগ্রেপ্তার অপপ্রচার করে সরকার গুপ্তহত্যা ধামাচাপা দিতে চাইছে</a>
+                        </h2>
+                        <div class="entry-meta">
+                            <ul>
+                                <li class="publish-date"><i class="fa fa-calendar"></i><a href="#">মঙ্গলবার, ২১ জুন ২০১৬</a></li>
+                                <li class="tag"><i class="fa fa-tags"></i><a href="#">জাতীয়</a></li>
+                            </ul>
+                        </div>
+                        <div class="entry-summary">
+                            <p>বাংলাদেশ ইসলামী ছাত্রশিবিরের সেক্রেটারী জেনারেল ইয়াছিন আরাফাত বলেছেন, গুপ্তহত্যাসহ সকল রাষ্ট্রীয় অরাজকতায় সরকারের সম্পৃক্ততা জনগণের সামনে প্রকাশ হয়ে গেছে। তাই গুম, গণগ্রেপ্তার, অপপ্রচার করে সরকার গুপ্তহত্যা ধামাচাপা দিতে চাইছে।</p>
+                            <a href="news-detail.html" class="btn btn-info">বিস্তারিত</a>
+                        </div>
+                    </div>
+                </div><!--/post-->
+
+
+                <div class="post">
+                    <div class="entry-header">
+                        <div class="entry-thumbnail">
+                            <img class="img-responsive" src="images/jaamat/1016_1.jpg" alt="" />
+                        </div>
+                    </div>
+                    <div class="post-content">
+                        <h2 class="entry-title">
+                            <a href="news-detail.html">গুম গণগ্রেপ্তার অপপ্রচার করে সরকার গুপ্তহত্যা ধামাচাপা দিতে চাইছে</a>
+                        </h2>
+                        <div class="entry-meta">
+                            <ul>
+                                <li class="publish-date"><i class="fa fa-calendar"></i><a href="#">মঙ্গলবার, ২১ জুন ২০১৬</a></li>
+                                <li class="tag"><i class="fa fa-tags"></i><a href="#">জাতীয়</a></li>
+                            </ul>
+                        </div>
+                        <div class="entry-summary">
+                            <p>বাংলাদেশ ইসলামী ছাত্রশিবিরের সেক্রেটারী জেনারেল ইয়াছিন আরাফাত বলেছেন, গুপ্তহত্যাসহ সকল রাষ্ট্রীয় অরাজকতায় সরকারের সম্পৃক্ততা জনগণের সামনে প্রকাশ হয়ে গেছে। তাই গুম, গণগ্রেপ্তার, অপপ্রচার করে সরকার গুপ্তহত্যা ধামাচাপা দিতে চাইছে।</p>
+                            <a href="news-detail.html" class="btn btn-info">বিস্তারিত</a>
+                        </div>
+                    </div>
+                </div><!--/post-->
+
+
+            </div>
+
+
+
+
+
+
+
+            <div class="text-center pagination-section">
+                <nav>
+                    <ul class="pagination">
+                        <li><a href="index.html" aria-label="Previous"><span aria-hidden="true">পূর্ববর্তী</span></a></li>
+                        <li><a href="#">১</a></li>
+                        <li><a class="active" href="#">২</a></li>
+                        <li><a href="#">৩</a></li>
+                        <li><a href="#">৪</a></li>
+                        <li><a href="#" aria-label="Next"><span aria-hidden="true">পরবর্তী</span></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+</div><!--/#main-blog-->
